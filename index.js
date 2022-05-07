@@ -4,7 +4,7 @@ const axios = require('axios');
 var exec = require('child_process').exec;
 
 //Use to set the downloadAll using argument
-const downloadAll = process.argv.includes('-d') ? process.argv[process.argv.indexOf('-d')+1] : "false"
+const downloadAll = process.argv.includes('-d') ? process.argv[process.argv.indexOf('-d')] : "false"
 downloadAll ? console.log("downloadAll is currently ${downloadAll} with that mode nothing will be download in the repos folder") : console.log("The repositories will be downloaded in the repos folder")
 
 //Use to set the username using argument
