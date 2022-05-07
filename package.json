@@ -1,0 +1,11 @@
+{
+  "name": "github-download-system",
+  "version": "1.0.0",
+  "description": "A github download system who can download all (organisation) repositories of an auth user (username and token) needed",
+  "main": "index.js",
+  "author": "Crazy_Out",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
